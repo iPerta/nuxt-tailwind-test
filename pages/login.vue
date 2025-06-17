@@ -63,6 +63,16 @@
         <!-- Messaggio di errore se non è valido -->
         <p v-if="!isFormValid" class="text-red-500 text-center mt-4">Please fill in all fields correctly.</p>
       </form>
+
+      <!-- Pulsante di ritorno alla home -->
+      <div class="mt-6 text-center">
+        <NuxtLink
+          to="/"
+          class="inline-block px-6 py-2 bg-gray-600 text-white rounded-full hover:bg-gray-700 transition duration-300"
+        >
+          Torna alla Home
+        </NuxtLink>
+      </div>
     </div>
 
     <!-- Popup Modale di Successo -->

@@ -100,7 +100,7 @@
         &copy; 2025 La Nostra Azienda. Tutti i diritti riservati.
       </p>
       <div class="mt-4">
-        <NuxtLink to="/app" class="text-blue-400 hover:text-blue-300 hover:underline font-medium text-sm sm:text-base">
+        <NuxtLink to="/" class="text-blue-400 hover:text-blue-300 hover:underline font-medium text-sm sm:text-base">
           Torna alla Home
         </NuxtLink>
       </div>
